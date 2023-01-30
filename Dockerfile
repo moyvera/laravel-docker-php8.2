@@ -44,7 +44,7 @@ RUN docker-php-ext-enable \
 RUN docker-php-ext-configure zip
 RUN docker-php-ext-install \
     curl \
-    iconv \
+#    iconv \
     mysqli \
     pdo \
     pdo_mysql \
